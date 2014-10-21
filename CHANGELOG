@@ -1,0 +1,64 @@
+2012/5/16 0:00
+add kaoi, kaoi_test.c TestAoi
+
+2012/5/8 15:41
+add kquadtree and kquadtree_test.c
+
+2012/4/12 2:04
+implement rbtree
+
+
+2012/4/11 13:56
+add khashmap khashmap_test.c
+add default hash fun for int and string
+
+
+2012/4/9 15:16
+add kvalist kvalist_test.c
+
+
+2012/4/7 17:39
+add time.c time_c.c rfc868
+
+
+2012/4/6 13:55
+add ktimer_node ktimer, add ktimer_test.c
+
+
+2012/4/2 1:29
+add kminheap structure ,kminheap_test.c
+
+
+2012/3/31 14:26
+remove knet_addr
+add kev, kbuffer, ktcp_session to memory pool
+
+
+2012/3/30 15:35
+remove khttp from lib, will implement as a module
+
+
+2012/3/30 11:21
+add memory pool learned from ngx
+add memory pool test kmempool_test.c
+remove memory leak check
+
+
+2012/3/9 0:03
+add http request parse
+parse method and url now
+next is the head fields
+
+
+2012/3/8 11:50
+add khttp_server
+add khttp_connection
+add khttp_request
+add khttp_response
+add khttp_server_init, khttp_server_set_request_cb, khttp_server_start, khttp_server_uninit
+
+
+2012/3/7 11:32
+add krbtree data structures
+add krbtree_init, krbtree_insert, krbtree_find, krbtree_erase, krbtree_uninit
+add krbtree_test.c unit test
